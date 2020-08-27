@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GeneralStoreAPI.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -9,6 +10,17 @@ namespace GeneralStoreAPI.Controllers
 {
     public class ProductController : ApiController
     {
+        private StoreDbContext _context = new StoreDbContext();
+
+        // Post
+
+        // Get
+
+        // Get{id}
+
+        // Put{id}
+
+        // Delete{id}
 
         private string GenerateSku(string productName)
         {
